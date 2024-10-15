@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.button.MaterialButton
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/custom_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Моя кнопка"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#006400"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:padding="12dp"
+        app:strokeColor="#505050"
+        app:strokeWidth="6dp"
+        app:cornerRadius="24dp"/>
+
+</RelativeLayout>
